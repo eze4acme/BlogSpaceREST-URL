@@ -1,0 +1,66 @@
+body{
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    background: linear-gradient(to left, #e4a2e0, #317777);
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+nav{
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    padding: 0 300px;
+    text-align: justify;
+    letter-spacing: 5px;
+    font-size: 20px;
+    scale: 1.4;
+    text-shadow: 0 0 0px black;
+    background: linear-gradient(to right, #e4a2e0, #317777);
+}
+nav h3{
+    margin: 0px;
+    
+}
+#blog-listing {
+    padding: 10px;
+}
+form{
+    padding: 60px 10px 10px;
+    display: grid;
+    font-size: 20px;
+    text-shadow: 0 0 0px black;
+    line-height: 50px;
+    color: black;
+    font-weight: bold;
+}
+#title{
+    padding: 5px;
+    caret-color: red;
+    border: 1px solid #317777;
+}
+#post{
+    margin-bottom: 30px;
+    caret-color: red;
+    border: 1px solid #317777;
+    padding: 20px;
+}
+button{
+ font-size: 18px;
+ cursor: pointer; 
+ border-radius: 40px;  
+ border: none;
+ padding: 10px;
+ background-color: #317777;
+ color: black;
+ font-weight: bold;
+ letter-spacing: 3px;
+ text-shadow: 0 0 1px black;
+ filter: drop-shadow(-5px 5px 0px #4f5050);
+ transition: filter 1ms ease-in-out;
+}
+button:hover{
+    filter: drop-shadow(5px -5px 0px #6e9999);
+}
